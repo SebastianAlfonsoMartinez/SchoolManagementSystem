@@ -1,5 +1,10 @@
 package org.ada.crud;
 
-public class CourseCrud {
+import org.ada.entity.Course;
 
+import java.util.ArrayList;
+import java.util.List;
+
+public class CourseCrud {
+    private final List<Course> coursesList = new ArrayList<>();
 }
