@@ -15,4 +15,15 @@ public class Course {
         this.numberCredits = numberCredits;
         this.versionCourse = versionCourse;
     }
+
+    public Integer getId() {
+        return id;
+    }
+
+    @Override
+    public String toString() {
+        return String.format("| %-5s | %-20s | %-15s | %-20s | %-5s",
+                "ID: " + id, "Curso: " + nameCourse, "Descripcion: " + descriptionCourse, "Numero de creditos: " + numberCredits, "Version: " +versionCourse);
+
+    }
 }
