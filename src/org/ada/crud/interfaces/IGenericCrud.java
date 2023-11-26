@@ -1,7 +1,5 @@
 package org.ada.crud.interfaces;
 
-import java.util.List;
-
 public interface IGenericCrud<T> {
 
     void add(T entity);
