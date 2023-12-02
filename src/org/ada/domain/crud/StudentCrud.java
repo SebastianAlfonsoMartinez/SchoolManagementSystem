@@ -1,7 +1,7 @@
-package org.ada.crud;
+package org.ada.domain.crud;
 
-import org.ada.crud.interfaces.IGenericCrud;
-import org.ada.entity.Student;
+import org.ada.domain.crud.interfaces.IGenericCrud;
+import org.ada.domain.entity.Student;
 import java.util.ArrayList;
 import java.util.List;
 

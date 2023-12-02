@@ -1,11 +1,13 @@
-import org.ada.entity.Course;
-import org.ada.entity.State;
-import org.ada.entity.Student;
+package org.ada;
+
+import org.ada.domain.entity.Course;
+import org.ada.domain.entity.State;
+import org.ada.domain.entity.Student;
 import org.ada.service.AcademicManagerService;
 import org.ada.service.CourseService;
 import org.ada.service.StudentService;
-import org.ada.service.exception.CourseNoExistException;
-import org.ada.service.exception.StudentAlreadyInscribedException;
+import org.ada.exception.CourseNoExistException;
+import org.ada.exception.StudentAlreadyInscribedException;
 
 import java.time.LocalDate;
 

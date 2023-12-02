@@ -1,4 +1,4 @@
-package org.ada.crud.interfaces;
+package org.ada.domain.crud.interfaces;
 
 public interface IGenericCrud<T> {
 

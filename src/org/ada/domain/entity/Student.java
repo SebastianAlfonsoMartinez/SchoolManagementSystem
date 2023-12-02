@@ -1,8 +1,8 @@
-package org.ada.entity;
+package org.ada.domain.entity;
 
 import java.time.LocalDate;
 
-public class Student extends Persona{
+public class Student extends Person {
     //atributos
 
     private State state;

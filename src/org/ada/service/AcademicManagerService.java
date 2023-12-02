@@ -1,11 +1,11 @@
 package org.ada.service;
 
-import org.ada.crud.AcademicManagerCrud;
-import org.ada.entity.Course;
-import org.ada.entity.Student;
-import org.ada.service.exception.CourseNoExistException;
-import org.ada.service.exception.StudentAlreadyInscribedException;
-import org.ada.service.exception.StudentNotEnrolledInCourseException;
+import org.ada.domain.crud.AcademicManagerCrud;
+import org.ada.domain.entity.Course;
+import org.ada.domain.entity.Student;
+import org.ada.exception.CourseNoExistException;
+import org.ada.exception.StudentAlreadyInscribedException;
+import org.ada.exception.StudentNotEnrolledInCourseException;
 import org.ada.service.interfaces.IAcademic;
 
 import java.util.List;

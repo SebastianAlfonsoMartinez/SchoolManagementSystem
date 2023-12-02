@@ -1,7 +1,7 @@
 package org.ada.service;
 
-import org.ada.crud.StudentCrud;
-import org.ada.entity.Student;
+import org.ada.domain.crud.StudentCrud;
+import org.ada.domain.entity.Student;
 
 // Clase que gestiona operaciones relacionadas con estudiantes y hereda comportamientos CRUD de StudentCrud
 public class StudentService extends StudentCrud {
