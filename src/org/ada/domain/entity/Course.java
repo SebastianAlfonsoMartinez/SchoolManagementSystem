@@ -1,4 +1,4 @@
-package org.ada.entity;
+package org.ada.domain.entity;
 
 // Clase que representa un curso
 public class Course {

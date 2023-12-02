@@ -1,4 +1,4 @@
-package org.ada.service.exception;
+package org.ada.exception;
 
 // Excepción personalizada para cuando un curso no existe
 public class CourseNoExistException extends Exception {

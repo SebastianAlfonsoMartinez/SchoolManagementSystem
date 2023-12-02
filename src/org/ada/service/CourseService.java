@@ -1,7 +1,7 @@
 package org.ada.service;
 
-import org.ada.crud.CourseCrud;
-import org.ada.entity.Course;
+import org.ada.domain.crud.CourseCrud;
+import org.ada.domain.entity.Course;
 
 // Clase que gestiona operaciones relacionadas con cursos y hereda comportamientos CRUD de CourseCrud
 public class CourseService extends CourseCrud {

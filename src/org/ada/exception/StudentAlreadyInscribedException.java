@@ -1,4 +1,4 @@
-package org.ada.service.exception;
+package org.ada.exception;
 
 // Excepción personalizada para cuando un estudiante ya está inscrito en un curso
 public class StudentAlreadyInscribedException extends Exception {

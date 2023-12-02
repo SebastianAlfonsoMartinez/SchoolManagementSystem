@@ -1,7 +1,7 @@
-package org.ada.crud.interfaces;
+package org.ada.domain.crud.interfaces;
 
-import org.ada.entity.Course;
-import org.ada.entity.Student;
+import org.ada.domain.entity.Course;
+import org.ada.domain.entity.Student;
 import java.util.List;
 
 public interface ICrudAcademic {

@@ -1,8 +1,8 @@
-package org.ada.crud;
+package org.ada.domain.crud;
 
-import org.ada.crud.interfaces.ICrudAcademic;
-import org.ada.entity.Course;
-import org.ada.entity.Student;
+import org.ada.domain.crud.interfaces.ICrudAcademic;
+import org.ada.domain.entity.Course;
+import org.ada.domain.entity.Student;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
